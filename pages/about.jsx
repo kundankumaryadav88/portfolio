@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import aboutImage from "../public/image1.jpg";
+import aboutImage from "../public/image1.jpeg";
 import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
@@ -112,11 +112,18 @@ export default function About() {
                   className="self-center w-8 h-8 mx-1"
                 />
               </span>{" "}
-              Experience in ReactJS, React Native, NextJS, and state management
-              like Redux with proficiency in web technologies like HTML5, CSS3,
-              and JavaScript, building large-scale web applications,
-              cross-browser platforms, and design constraints on the web, and
-              building responsive user interfaces.{" "}
+              I possess a robust and diversified skill set, encompassing
+              expertise in ReactJS, React Native, NextJS, and proficiently
+              managing state with Redux. My proficiency extends to encompass a
+              comprehensive grasp of core web technologies, including HTML5,
+              CSS3, and JavaScript. I have a proven track record in the
+              development of large-scale web applications that cater to
+              cross-browser platforms while adhering to the nuanced design
+              constraints of the web. My experience also extends to crafting
+              highly responsive user interfaces. Furthermore, I bring a wealth
+              of knowledge in Flutter development, having successfully delivered
+              two industrial applications, thus adeptly filling any gaps in my
+              skill set..{" "}
               <span className="inline-flex items-baseline">
                 <Image
                   src={Flash}
@@ -137,17 +144,17 @@ export default function About() {
               <span className="text-red-700 font-bold">GMail</span>{" "}
               <a
                 onClick={() =>
-                  navigator.clipboard.writeText("shikhar.pranjal3@gmail.com")
+                  navigator.clipboard.writeText("kundankumar97779@gmail.com")
                 }
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 group select-all font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
-                href="mailto:shikhar.pranjal3@gmail.com"
+                href="mailto:kundankumar97779@gmail.com"
               >
                 {" "}
-                shikhar.pranjal3@gmail.com
+                kundankumar97779@gmail.com
               </a>{" "}
               or <span className="text-blue-700 font-bold">LinkedIn</span>{" "}
               <a
-                href="http://linkedin.com/in/pranjalshikhar"
+                href="https://www.linkedin.com/in/kundan-kumar-yadav-128454141/"
                 className=" underline underline-offset-4 decoration-2 decoration-purple-400 font-semibold dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select"
                 rel="noopener noreferrer"
                 target="blank"
@@ -158,19 +165,19 @@ export default function About() {
               or you can DM me on{" "}
               <span className="text-orange-500 font-bold">Instagram</span>{" "}
               <a
-                href="https://instagram.com/pranjal.fig"
+                href="https://www.instagram.com/goldyyaduvanshi88/"
                 target="blank"
                 rel="noopener noreferrer"
                 className=" font-semibold underline underline-offset-4 decoration-2 decoration-purple-400 dark:hover:text-purple-400 hover:text-purple-700 cursor-pointer select "
               >
                 {" "}
-                @pranjal.fig{" "}
+                @goldyyaduvanshi88{" "}
               </a>{" "}
             </p>
           </div>
           <div className="flex mx-auto justify-center mt-16 select-none">
             <span className="font-black font-app text-2xl md:text-3xl align-text-bottom tracking-wider mx-3 md:mx-6">
-              dattebayo
+              creality
             </span>
             {currentTheme === "dark" ? (
               <Image src={love_white} alt="love" width="30" className="-mt-4" />

@@ -11,7 +11,7 @@ const Experience = () => {
       <div className="bg-purple-300 w-36 h-36 rounded-lg p-4 select-none ">
         <div className="bg-purple-400  h-28 w-28 flex-col justify-end mx-auto blur-none z-40 items-center text-center text-xl text-white font-medium rounded-lg p-2">
           <div className="basis-[60%] text-5xl font-black ">
-            <h2 className="text-border mt-1 ">03</h2>
+            <h2 className="text-border mt-1 ">02</h2>
           </div>
           <div className="basis-[30%] text-xs mt-3 font-bold">
             {" "}
@@ -21,7 +21,7 @@ const Experience = () => {
       </div>
       <div className="w-[80%] mx-auto">
         <div className="text-center max-w-2xl mx-auto tracking-normal leading-5 text-base sm:text-[1.1rem] lg:text-lg">
-          During these 3 years, I have developed a strong problem-solving and
+          During these 2 years, I have developed a strong problem-solving and
           critical thinking skills, and am able to quickly adapt to new
           technologies and methods of working. Given are some skill-set that I
           have learned and am still actively learning as days goes by
@@ -126,7 +126,7 @@ const Experience = () => {
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
           <div className="group border-purple-400 hover:bg-purple-400 hover:text-white hover:drop-shadow-2xl text-purple-500 rounded-md md:rounded-xl px-2 py-1 md:px-4 md:py-2 shadow-md drop-shadow-lg dark:bg-purple-400 dark:shadow-none dark:hover:shadow-white select-none dark:text-white shadow-purple-300 ">
             <Link
-              href="/Pranjal_Shikhar_Sinha.pdf"
+              href="/kundan_kumar_yadav.pdf"
               target="_blank"
               className="flex items-center font-normal lg:font-bold space-x-2 text-sm md:text-base"
             >

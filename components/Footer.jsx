@@ -20,12 +20,13 @@ const Footer = () => {
   };
   useEffect(() => {
     const getData = async () => {
-      const data = await fetch(
-        "https://api.github.com/repos/pranjalshikhar/portfolio-v3"
-      ).then((res) => res.json());
+      const data = {
+        star: 2,
+        forks: 323
+      }
       setMetaData({
-        star: data.stargazers_count,
-        forks: data.forks_count,
+        star: data.star,
+        forks: data.forks,
       });
     };
     getData();
@@ -44,7 +45,7 @@ const Footer = () => {
           <Image src={LinkedIn} alt="linkedin" width="30" />
         </Link>
         <Link
-          href="https://github.com/pranjalshikhar?tab=repositories"
+          href="https://github.com/kundankumaryadav88"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -54,7 +55,7 @@ const Footer = () => {
         </Link>
         
         <a
-          href="https://instagram.com/pranjal.fig"
+          href="https://instagram.com/goldyyaduvanshi88"
           target="blank"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
         >
@@ -63,7 +64,7 @@ const Footer = () => {
           <Image src={Instagram} alt="instagram" width="30" />
         </a>
         <Link
-          href="mailto:shikhar.pranjal3@gmail.com"
+          href="mailto:kundankumar97779@gmail.com"
           target="blank"
           rel="noreferrer"
           className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
@@ -74,7 +75,7 @@ const Footer = () => {
         </Link>
       </div>
       <a
-        href="https://github.com/pranjalshikhar/portfolio-v3"
+        href="https://github.com/kundankumaryadav88"
         target="blank"
         rel="noreferrer"
         className="flex flex-col text-center group hover:text-purple-800 w-max hover:font-black items-center text-gray-600 text-[0.6rem] sm:text-xs md:text-sm lg:text-md mt-8 md:mt-12 "
