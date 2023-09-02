@@ -40,7 +40,7 @@ export default function Home() {
             {currentTheme === "dark" ? (
               <Image
                 src={Avatar_White}
-                alt="pranjal"
+                alt="kundan"
                 width="100"
                 height="100"
               />
