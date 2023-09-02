@@ -7,6 +7,7 @@ import GitHub from "../public/icons/github@2x.png";
 import Behance from "../public/icons/behance@2x.png";
 import Instagram from "../public/icons/instagram@2x.png";
 import Gmail from "../public/icons/google@2x.png";
+import leetcode from "../public/icons/leetcodeimage.png"
 import Image from "next/image";
 
 const Footer = () => {
@@ -52,6 +53,15 @@ const Footer = () => {
           {" "}
           {/* GitHub{" "} */}
           <Image src={GitHub} alt="github" width="30" />
+        </Link>
+        <Link
+          href="https://leetcode.com/karanjashveersingh88/"
+          target="blank"
+          className=" dark:hover:text-purple-400 hover:text-purple-600 font-semibold"
+        >
+          {" "}
+          {/* leetcode{" "} */}
+          <Image src={leetcode} alt="github" width="30" />
         </Link>
         
         <a
