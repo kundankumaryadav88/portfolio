@@ -8,17 +8,17 @@ export default function Document() {
       lang="en"
     >
       <Head>
-        <title>kundan ✦ developer, designer</title>
-        <meta name="title" content="kundan ✦ developer, designer" />
-        <meta name="description" content="Developer // Designer // Weeb" />
+        {/* <title>"kundan ✦ Full stack Developer"</title> */}
+        {/* <meta name="title" content="kundan ✦ Full stack Developer" />
+        <meta name="description" content="Full stack Developer" /> */}
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kundan.vercel.app/" />
-        <meta property="og:title" content="kundan ✦ developer, designer" />
+        <meta property="og:title" content="kundan ✦ Full stack Developer" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Full stack Developer"
         />
         <meta
           property="og:image"
@@ -33,11 +33,11 @@ export default function Document() {
         />
         <meta
           property="twitter:title"
-          content="kundan ✦ developer, designer"
+          content="kundan ✦ Full stack Developer"
         />
         <meta
           property="twitter:description"
-          content="Developer // Designer // Weeb"
+          content="Full stack Developer"
         />
         <meta
           property="twitter:image"
@@ -45,11 +45,11 @@ export default function Document() {
         />
 
         {/* whatsapp */}
-        <meta property="og:site_name" content="kundan ✦ developer, designer" />
-        <meta property="og:title" content="kundan ✦ developer, designer" />
+        <meta property="og:site_name" content="kundan ✦ Full stack Developer" />
+        <meta property="og:title" content="kundan ✦ Full stack Developer" />
         <meta
           property="og:description"
-          content="Developer // Designer // Weeb"
+          content="Full stack Developer"
         />
         <meta
           property="og:image"
@@ -64,7 +64,7 @@ export default function Document() {
           rel="search"
           href="/opensearch.xml"
           type="application/opensearchdescription+xml"
-          title="kundan ✦ developer, designer"
+          title="kundan ✦ Full stack Developer"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
