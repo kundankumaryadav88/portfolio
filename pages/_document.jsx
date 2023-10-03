@@ -14,7 +14,7 @@ export default function Document() {
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://kundanshikhar.vercel.app/" />
+        <meta property="og:url" content="https://kundan.vercel.app/" />
         <meta property="og:title" content="kundan ✦ developer, designer" />
         <meta
           property="og:description"
@@ -22,14 +22,14 @@ export default function Document() {
         />
         <meta
           property="og:image"
-          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundanshikhar_i8znzx.jpg"
+          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundan_i8znzx.jpg"
         />
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          // content="https://kundanshikhar.vercel.app/"
+          // content="https://kundan.vercel.app/"
         />
         <meta
           property="twitter:title"
@@ -41,7 +41,7 @@ export default function Document() {
         />
         <meta
           property="twitter:image"
-          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundanshikhar_i8znzx.jpg"
+          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundan_i8znzx.jpg"
         />
 
         {/* whatsapp */}
@@ -54,12 +54,12 @@ export default function Document() {
         <meta
           property="og:image"
           itemprop="image"
-          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundanshikhar_i8znzx.jpg"
+          // content="https://res.cloudinary.com/dhtviyhse/image/upload/v1682600618/kundan_i8znzx.jpg"
         />
         <meta property="og:type" content="website" />
 
         {/* canonical links */}
-        <link rel="canonical" href="https://kundanshikhar.vercel.app/" />
+        <link rel="canonical" href="https://kundan.vercel.app/" />
         <link
           rel="search"
           href="/opensearch.xml"
